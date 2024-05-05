@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "extrarightclickbind",
+  "version": "${version}",
+  "name": "ExtraRightClickBind",
+  "description": "Adds an additional key bind for right click. ",
+  "authors": [
+    "HyperPigeon"
+  ],
+  "contact": {
+    "repo": "https://github.com/shara/ExtraRightClickBind"
+  },
+  "license": "MIT",
+  "icon": "assets/extrarightclickbind/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.hyper_pigeon.extrarightclickbind.client.ExtraRightClickBindClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
